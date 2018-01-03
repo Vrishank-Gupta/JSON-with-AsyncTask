@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        />
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:id="@+id/college"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/college"
+        android:id="@+id/course"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course"
+        android:id="@+id/branch"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/roll_number"
+        android:layout_below="@id/branch"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        />
+
+
+
+
+</RelativeLayout>
